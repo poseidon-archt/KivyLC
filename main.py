@@ -57,7 +57,7 @@ class Manager(ScreenManager):
         first = self.ids.firstname.text
         second = self.ids.secondname.text
         results = lovecal.calculator(first, second)
-        #print(results)
+        #prtint(results)
         if results == "Failed":
             self.result = "Failed"
             self.percentage = "Failed"
