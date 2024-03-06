@@ -83,7 +83,7 @@ fullscreen = 0
 #android.presplash_color = #FFFFFF
 
 # (list) Permissions
-android.permissions = READ_EXTERNAL_STORAGE,INTERNET,WRITE_EXTERNAL_STORAGE
+android.permissions = INTERNET
 
 
 # (int) Target Android API, should be as high as possible.
@@ -102,7 +102,7 @@ android.minapi = 21
 #android.ndk_api = 28
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
-#android.private_storage = True
+android.private_storage = False
 
 # (str) Android NDK directory (if empty, it will be automatically downloaded.)
 #android.ndk_path =
